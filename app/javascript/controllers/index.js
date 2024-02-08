@@ -8,8 +8,8 @@ import React from "react"
 import ReactDOM from 'react-dom'
 import { Provider } from "react-redux";
 
-import App from "../components/App"
-import store from "../store/store";
+import App from "../App"
+ import store from "../store";
 
 // Connects to data-controller="react-router"
 export default class extends Controller {
